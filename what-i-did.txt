@@ -1,0 +1,25 @@
+1. create fruits.txt: 
+2. commit fruits.txt message: Evergreen fruits; Push master
+3. create development branch
+4. create winter-fruits.txt: seasonal: winter-fruits added; Push development
+5. git checkout -b summerfruits development: create summerfruits branch from development branch
+6. create summer-fruits.txt
+7. commit summer-fruits.txt; commit message: summer-fruits added
+8. git checkout development
+9. git merge summerfruits
+10.git push origin development
+11.git push origin summerfruits
+12.git checkout -b otherfruits development: create otherfruits branch from development branch
+13.create other-fruits.txt
+14.commit other-fruits.txt; commit message: other-fruits added
+15.git checkout development
+16.git merge -no-ff otherfruits
+17.git push origin otherfruits
+18.git push origin development
+19.git checkout -b kingoffruits development: create kingoffruits branch from development branch
+20.create king-of-fruits.txt
+21.commit king-of-fruits.txt; commit message: king-of-fruits added
+22.git checkout development
+23.git merge -no-ff kingoffruits
+24.git push origin development
+25.git push origin kingoffruits.
